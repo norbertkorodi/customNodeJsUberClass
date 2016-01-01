@@ -1,0 +1,22 @@
+{
+  "name": "norbiuberclass4nodejs",
+  "version": "1.0.0",
+  "description": "Custom superclass for my nodejs projects in ecmascript.",
+  "main": "UberClass.js",
+  "repository": "",
+  "scripts": {
+	"start": "node UberClass.js",
+    "monitor": "nodemon UberClass.js",
+    "lint": "jshint --exclude-path=.gitignore .",
+    "test": "npm run lint"
+  },
+  "keywords": ["logger", "uberclass", "log4js", "norbi"],
+  "license": "ISC",
+  "author": "Norbert Korodi",
+  "dependencies": {
+    "norbilogger": "latest"
+  },
+  "engines": {
+    "node": ">=0.12.7"
+  }
+}
