@@ -1,9 +1,9 @@
 {
   "name": "norbiuberclass4nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom superclass for my nodejs projects in ecmascript.",
   "main": "UberClass.js",
-  "repository": "",
+  "repository": "https://github.com/norbertkorodi/customNodeJsUberClass.git",
   "scripts": {
 	"start": "node UberClass.js",
     "monitor": "nodemon UberClass.js",
